@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../HCI-AOL-Lab"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "HCI-AOL-Lab"
+  }
+}

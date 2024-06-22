@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register - Diamoncut Motors</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="left-side">
+        <img src="images/login-regist.jpeg"" alt="Car Image">
+      </div>
+      <div class="right-side">
+        <div class="form-container">
+          <a class="back-login" href="/login.html"
+            ><i class="fa-solid fa-arrow-left"></i> Back to Login Page</a
+          >
+          <h2>Welcome to Diamoncut Motors</h2>
+          <p>Get in and choose your dream car</p>
+          <form>
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone-number">Phone number</label>
+              <div class="phone-wrapper">
+                <div class="country-code">
+                  <img src="images/indonesia.png" alt="Indonesia Flag" />
+                  <span>+62</span>
+                </div>
+                <input
+                  type="text"
+                  id="phone-number"
+                  name="phone-number"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <div class="password-wrapper">
+                <input type="password" id="password" name="password" required />
+                <button type="button" id="togglePassword">Show Password</button>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password-confirmation">Password confirmation</label>
+              <div class="password-wrapper">
+                <input
+                  type="password"
+                  id="password-confirmation"
+                  name="password-confirmation"
+                  required
+                />
+                <button type="button" id="togglePasswordConfirmation">
+                  Show Password
+                </button>
+              </div>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms"
+                >I have read and agree to the
+                <a href="#">terms and conditions</a> &
+                <a href="#">Privacy Policy</a> of Using Suntcare.</label
+              >
+            </div>
+            <button type="submit">Sign up</button>
+          </form>
+          <button class="google-btn">
+            <img src="images/google.png" alt="" /> Or sign up with Google
+          </button>
+          <p class="signin">
+            Already have an account? <a href="/login.html">Sign in now</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/register.js"></script>
+  </body>
+</html>
